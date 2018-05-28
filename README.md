@@ -15,7 +15,7 @@ Some white space is required to separate otherwise adjacent identifiers, keyword
 Some identifiers are reserved for use as keywords, and may not be used otherwise:
        e.g.,  int, if, else, endif,  while, return, get, put   etc.
 
- Comments are enclosed in    !&npsp;   &npsp;   &npsp;   &npsp;   &npsp;!
+ Comments are enclosed in    !&npsp;&nbsp;&npsp;&nbsp;&npsp;&npsp;&nbsp;&npsp;&nbsp;&npsp;!
 
 2) Syntax rules : The following BNF  describes the Rat18S.  <br />
 
