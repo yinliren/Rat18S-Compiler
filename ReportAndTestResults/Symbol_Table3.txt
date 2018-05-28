@@ -1,0 +1,7 @@
+************************ Symbol Table ****************************
+
+	Identifier		Type		Memory Addr.
+              i             boolean                2000
+            max             boolean                2001
+            sum             boolean                2002
+          hello             boolean                2003

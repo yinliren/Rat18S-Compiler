@@ -1,0 +1,66 @@
+******************************* Instruction Table **********************************
+
+		Instruction Addr.  		Operation		Operand
+                 1                              LABEL                        
+                 2                              PUSHM                    2006
+                 3                              PUSHM                    2007
+                 4                                LES                        
+                 5                              JUMPZ                      11
+                 6                              PUSHM                    2006
+                 7                              PUSHI                       1
+                 8                                ADD                        
+                 9                               POPM                    2006
+                10                               JUMP                       1
+                11                              PUSHM                    2001
+                12                              PUSHM                    2005
+                13                              PUSHM                    2002
+                14                                MUL                        
+                15                              PUSHM                    2003
+                16                                DIV                        
+                17                                ADD                        
+                18                              PUSHM                    2004
+                19                                SUB                        
+                20                               POPM                    2000
+                21                              PUSHM                    2001
+                22                              PUSHM                    2005
+                23                                LES                        
+                24                              JUMPZ                      27
+                25                              PUSHM                    2002
+                26                               POPM                    2001
+                27                              PUSHM                    2005
+                28                              PUSHM                    2002
+                29                                ADD                        
+                30                               POPM                    2001
+                31                              STDIN                        
+                32                               POPM                    2008
+                33                              STDIN                        
+                34                               POPM                    2009
+                35                              STDIN                        
+                36                               POPM                    2010
+                37                              PUSHM                    2008
+                38                              PUSHM                    2009
+                39                              PUSHM                    2010
+                40                                MUL                        
+                41                                SUB                        
+                42                             STDOUT                        
+                43                              PUSHM                    2001
+                44                              PUSHM                    2003
+                45                                MUL                        
+                46                              PUSHM                    2004
+                47                                SUB                        
+                48                               POPM                    2002
+                49                              LABEL                        
+                50                              PUSHM                    2006
+                51                              PUSHI                      10
+                52                                LES                        
+                53                              JUMPZ                      63
+                54                              PUSHM                    2002
+                55                              PUSHI                       1
+                56                                ADD                        
+                57                               POPM                    2001
+                58                              PUSHM                    2006
+                59                              PUSHI                       1
+                60                                ADD                        
+                61                               POPM                    2006
+                62                               JUMP                      49
+                63                                                           

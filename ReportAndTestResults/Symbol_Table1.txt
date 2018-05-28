@@ -1,0 +1,12 @@
+************************ Symbol Table ****************************
+
+	Identifier		Type		Memory Addr.
+              x                 int                2000
+              a                 int                2001
+              c                 int                2002
+              d                 int                2003
+              e                 int                2004
+              b                 int                2005
+              i                 int                2006
+            max                 int                2007
+            low                 int                2008

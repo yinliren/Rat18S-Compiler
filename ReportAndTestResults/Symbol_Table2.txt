@@ -1,0 +1,6 @@
+************************ Symbol Table ****************************
+
+	Identifier		Type		Memory Addr.
+              a                 int                2000
+              b                 int                2001
+              c                 int                2002

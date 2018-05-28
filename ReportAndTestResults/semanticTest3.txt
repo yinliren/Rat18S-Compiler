@@ -1,0 +1,25 @@
+%%
+     int i, max, sum;
+     boolean hello;
+     sum = 0;
+     i = 1;
+     get (max);
+     while (i < max) {
+         sum = sum + i;
+         i = i + 1;
+     }
+     put (sum + max);
+
+     hello = true;
+     if (hello == true) {
+       sum = sum + 3;
+     }
+     endif
+     
+     if (hello == false) {
+       sum = 0;
+       max = 0;
+     }
+     endif
+     
+

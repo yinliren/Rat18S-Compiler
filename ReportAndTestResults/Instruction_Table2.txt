@@ -1,0 +1,10 @@
+******************************* Instruction Table **********************************
+
+		Instruction Addr.  		Operation		Operand
+                 1                              PUSHM                    2000
+                 2                              PUSHM                    2001
+                 3                                LES                        
+                 4                              JUMPZ                       7
+                 5                              PUSHM                    2002
+                 6                               POPM                    2000
+                 7                                                           
