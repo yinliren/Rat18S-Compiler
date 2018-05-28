@@ -48,7 +48,7 @@ R25. <Expression>  ::=    <Expression> + <Term>    | <Expression>  - <Term>    |
 R26. <Term>    ::=      <Term>  *  <Factor>     |   <Term>  /  <Factor>     |     <Factor><br />
 R27. <Factor> ::=      -  <Primary>    |    <Primary><br />
 R28. <Primary> ::=     <Identifier>  |  <Integer>  |   <Identifier>  ( <IDs> )   |   ( <Expression> )   |
-                                     <Real>  |   true   |  false        <br />                
+                                     <Real>  |   true   |  false        <br />
 R29. <Empty>   ::= ε<br />
 
 
