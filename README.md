@@ -36,7 +36,7 @@ R14. <Statement List> ::=   <Statement>   | <Statement> <Statement List><br />
 R15. <Statement> ::=   <Compound>  |  <Assign>  |   <If>  |  <Return>   | <Print>   |   <Scan>   |  <While> <br />
 R16. <Compound> ::=   {  <Statement List>  } <br />
 R17. <Assign> ::=     <Identifier> = <Expression> ;<br />
-R18. <If> ::=     if  ( <Condition>  ) <Statement>   endif    |   <br />
+R18. <If> ::=     if  ( <Condition>  ) <Statement>   endif    |
                           if  ( <Condition>  ) <Statement>   else  <Statement>  endif   <br />
 R19. <Return> ::=  return ; |  return <Expression> ;<br />
 R20. <Print> ::=    put ( <Expression>);<br />
