@@ -1,0 +1,17 @@
+function max$ [varI, varII, varIII : int]
+{
+	if (varI => varII) 
+	{
+		if (varI => varIII) 
+		{
+			return varI;
+		}
+	}
+}
+
+%%
+	int aa, bb, cc; !Declarations!
+	while (aa > cc)
+	{
+		bb = bb + 1;
+	}

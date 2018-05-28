@@ -1,0 +1,16 @@
+%%
+     int x, a, c, d, e, b, i, max, low, high, step;
+
+     while (i < max) i = i + 1;
+     x = a + b * c/d-e;
+     if (a < b) a = c;
+     else a = b + c;
+     endif
+
+     get(low, high, step);
+     put(low - high * step);
+     
+
+
+
+

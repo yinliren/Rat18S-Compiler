@@ -1,0 +1,6 @@
+************************ Symbol Table ****************************
+
+	Identifier		Type		Memory Addr.
+              i                 int                2000
+            max                 int                2001
+            sum                 int                2002

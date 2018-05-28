@@ -1,0 +1,9 @@
+%%
+     int    low,  high, step$;      ! declarations !
+
+     get (low, high, step$);
+     while (low  <  high )  
+         {  put (low);
+             put (convert$ (low));
+             low =  low  +  step$;
+         } 
