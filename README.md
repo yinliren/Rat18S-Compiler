@@ -15,7 +15,7 @@ Some white space is required to separate otherwise adjacent identifiers, keyword
 Some identifiers are reserved for use as keywords, and may not be used otherwise:
        e.g.,  int, if, else, endif,  while, return, get, put   etc.
 
- Comments are enclosed in    !         !
+ Comments are enclosed in    !——————————!
 
 2) Syntax rules : The following BNF  describes the Rat18S.  <br />
 
@@ -30,7 +30,7 @@ R8. <Qualifier> ::= int     |    boolean    |  real <br />
 R9. <Body>  ::=  {  < Statement List>  }<br />
 R10. <Opt Declaration List> ::= <Declaration List>   |    <Empty><br />
 R11. <Declaration List>  := <Declaration> ;     |      <Declaration> ; <Declaration List><br />
-R12. <Declaration> ::=   <Qualifier > <IDs>     <br />              
+R12. <Declaration> ::=   <Qualifier > <IDs>     <br />
 R13. <IDs> ::=     <Identifier>    | <Identifier>, <IDs><br />
 R14. <Statement List> ::=   <Statement>   | <Statement> <Statement List><br />
 R15. <Statement> ::=   <Compound>  |  <Assign>  |   <If>  |  <Return>   | <Print>   |   <Scan>   |  <While> <br />
@@ -43,11 +43,11 @@ R20. <Print> ::=    put ( <Expression>);<br />
 R21. <Scan> ::=    get ( <IDs> );<br />
 R22. <While> ::=  while ( <Condition>  )  <Statement> <br />
 R23. <Condition> ::=     <Expression>  <Relop>   <Expression><br />
-R24. <Relop> ::=        ==   |   ^=    |   >     |   <    |   =>    |   =<      <br />    
+R24. <Relop> ::=        ==   |   ^=    |   >     |   <    |   =>    |   =<      <br />
 R25. <Expression>  ::=    <Expression> + <Term>    | <Expression>  - <Term>    |    <Term><br />
 R26. <Term>    ::=      <Term>  *  <Factor>     |   <Term>  /  <Factor>     |     <Factor><br />
 R27. <Factor> ::=      -  <Primary>    |    <Primary><br />
-R28. <Primary> ::=     <Identifier>  |  <Integer>  |   <Identifier>  ( <IDs> )   |   ( <Expression> )   |  <br />
+R28. <Primary> ::=     <Identifier>  |  <Integer>  |   <Identifier>  ( <IDs> )   |   ( <Expression> )   |
                                      <Real>  |   true   |  false        <br />                
 R29. <Empty>   ::= ε<br />
 
